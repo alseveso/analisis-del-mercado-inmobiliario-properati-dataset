@@ -1,7 +1,7 @@
 # analisis-del-mercado-inmobiliario-properati-dataset
 Se buscará ayudar a los tasadores/as de una gran inmobiliaria llamada Properati, a valuar las propiedades, ya que es un proceso difícil y, a veces, subjetivo.
 Para ello, se crearán modelos de Machine Learning que, dadas ciertas características de la propiedad, prediga su precio de venta (previo EDA y preprocesamiento de datos).
-Adicionalmente, se procederá a realizar la comparación de K-Mean, Silhouette y DBSCAN, con el fin de observar los resultados arrojados por cada uno de ellos, respecto a cómo se encuentra concentrados los Barrios.
+Adicionalmente, se procederá a realizar la comparación de 3 algoritmos de Clustering (K-Means, Silhouette y DBSCAN), con el fin de observar los resultados arrojados por cada uno de ellos, respecto a cómo se encuentra concentrados los Barrios.
 
 ## Filas y columnas
 En el presente Dataset, cada fila es una propiedad que se encuentra a la venta.
