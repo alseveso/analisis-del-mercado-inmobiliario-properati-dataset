@@ -1,12 +1,12 @@
 # analisis-del-mercado-inmobiliario-properati-dataset
 Se buscará ayudar a los tasadores/as de una gran inmobiliaria llamada Properati, a valuar las propiedades, ya que es un proceso difícil y, a veces, subjetivo.
 Para ello, se crearán modelos de Machine Learning que, dadas ciertas características de la propiedad, prediga su precio de venta (previo EDA y preprocesamiento de datos).
-Adicionalmente, se procederá a realizar la comparación de 3 algoritmos de Clustering (K-Means, Silhouette y DBSCAN), con el fin de observar los resultados arrojados por cada uno de ellos, respecto a cómo se encuentra concentrados los Barrios.
+Adicionalmente, se procederá a realizar la comparación de 3 algoritmos de Clustering (K-Means, Silhouette y DBSCAN), con el fin de observar los resultados arrojados por cada uno de ellos, respecto a cómo se encuentran concentrados los Barrios.
 
 ## Filas y columnas
 En el presente Dataset, cada fila es una propiedad que se encuentra a la venta.
 
-A fin de estimar el valor de un bien inmueble, se deben considerar ciertas cualidades y características del predio a analizar.
+Con el fin de estimar el valor de un bien inmueble, se deben considerar ciertas cualidades y características del predio a analizar.
 A continuación se detallan aquellas que podemos obtener del Dataset; algunas de ellas corresponden al nombre de cada columna, mientras que otras se obtienen del contenido de las mismas:
 
 Ubicación: El encontrarse en un determinado barrio o en otro, puede aumentar el valor del metro cuadrado de la vivienda.  
@@ -14,7 +14,7 @@ Tipo de Inmueble: Se deberá consignar el tipo de propiedad. Puede ser Casa (inc
 Antiguedad: Se deberá evaluar la depreciación por la edad del inmueble. Variará en funcion del Estado de Conservación.  
 Estado de Conservación: Del Inmueble Particular y del Edificio en caso de corresponder, valorándose el buen estado de las instalaciones, así como la realización de reformas recientes que hayan revalorizado la vivienda.  
 Destino: Puede ser Residencial para vivienda, Industrial para uso fabril o Comercial para el desarrollo de espacio de oficinas y comercios, u Otros.  
-Superficie Total: El precio unitario de una fracción urbana es tanto menor cuanto mayor sea el área de la misma, a igualdad de las demás condiciones y viceversa.  
+Superficie Total: El precio unitario de una fracción urbana es un tanto menor cuanto mayor sea el área de la misma, a igualdad de las demás condiciones y viceversa.  
 Superficie Cubierta: Se calcula con la suma total de áreas cubiertas o techadas del inmueble.  
 Calidad de la vista: Es decir, si No tiene vista, si tiene Alguna vista del área circundante, o si tiene una Vista Importante, del horizonte, espejo de agua o río, muy buena vista, u otra característica escénica muy deseable.  
 Orientación: Norte, Sur, Este, Oeste.  
